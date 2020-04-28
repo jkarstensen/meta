@@ -27,7 +27,7 @@ We ask that every file containe one Campaign_ID, one version_ID and at least one
 
 ### File metadata
 
-File meta data should repeat the ID information, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person responsible for the data.
+File meta data should repeat the ID information, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person responsible for the file (its creator) as well as the PI for the data that is being provided and/or the PI for the platform hosting the instrument.
 
 ### Coordinates and variables
 
