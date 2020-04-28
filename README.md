@@ -9,7 +9,7 @@ For the data repository and post-processing we encourage a controlled vocabulary
   * **Platform-ID:**  This is a unique identifier of platforms used during EUREC4A.  Examples include BCO, ATR, HALO, Meteor, Melonhead (a glider) and so on.
   * **Instrument-ID:**  This is a unique identifier that is given to a particular instrument that may be operating on a specific platform, for instance WALES is an DIAL lidar on HALO, or the MRR is the Microrain radar at the BCO.  Groups organized around platforms should decide on the Instrument_IDs they wish to use, but when similar instruments are used across different platforms it would be helpful if groups tried to coordinate the choice of names.
   * **Product-ID:**  THis might describe a product that is either associated with a platform, or with an instrument.   For instance Track describes the track (lat, lon, perhaps height) versus time of a platform, or in special cases where a tethered platform (like a CTD) is identified as an instrument rather than a platform on its own, then this could refer to the instrument.
-  * **Variable-ID:** This is the name of a specific output from an instrument.  It could be a voltage, or a temperature reading, or a reflectivity.
+  * **Variable-ID:** This is the name of a specific quantity.  Often an output of an instrument, it could also be a derived product  It could be a voltage, or a temperature reading, a reflectivity, or maybe the divergence on a circle. 
   * **Time-ID:** For some data it may be useful to indicate the time of the measurement or the time-range of the data included in the file.  This will adopt the form YYYYMMDDTHHMMSS-YYYYMMDDTHHMMSS, or e.g., YYYYMMDD, or YYYYMMDDTHHMM for a single instance. 
  * **Version-ID:** For data files the version of the data should be specified, and any updaes to the file should be accompanied with a new version number. 
 
@@ -23,6 +23,7 @@ Examples could be
   - EUREC4A_Meteor_Track_v0.2.nc
   - EUREC4A_HALO_KT19_T2_20200202_v2.2.nc  
   - EUREC4A_ATOMIC_SWIFT12_T04_20200120-20200212_v1.0.nc
+  - EUREC4A_HALO_Circle_Divergence_v3.3.nc
 We ask that every file containe one Campaign_ID, one version_ID and at least one further ID specifiying the particulars of the data the file contains.
 
 ### File metadata
