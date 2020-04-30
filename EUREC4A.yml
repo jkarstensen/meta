@@ -22,14 +22,13 @@ BCO:
       email: friedhelm.jansen@mpimet.mpg.de
       tags: !!set {fm, tl, dp}
     - name: Marvin Forde
-      email: marvin.forde@cimh.bb
+      email: mforde@cimh.edu.bb
       tags: !!set {tl}
   color: blue
-PolDiRad:
+POLDIRAD:
   long_name: DLR Polarization Diversity Doppler Radar
   aliases:
     - C-band Radar
-    - POLDIRAD
   platform_type: Scanning radar
   home:
     institution : DLR
@@ -73,7 +72,7 @@ Meteor:
     url: https://www.ldf.uni-hamburg.de/meteor.html
   contacts:
     - name: Wiebke Mohr
-      email: wmohr@mpi-bremen.mpg.de
+      email: wmohr@mpi-bremen.de
       tags: !!set {pi}
     - name: Stefan Kinne
       email: stefan.kinne@mpimet.mpg.de
@@ -213,7 +212,7 @@ RSS:
     url: www.rss.org.bb
   contacts:
     - name: David Farrell
-      email: david.farrell@cimh.bb
+      email: dfarrell@cimh.edu.bb
       tags: !!set {pi, dp}
   color: blue
 
