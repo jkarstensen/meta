@@ -34,7 +34,7 @@ We envision every file beginning with the Campaign_ID and ends with the Version_
 
 ### File metadata
 
-File meta data should include all the identifiers, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A_platforms.yml](EUREC4A_platforms.yml)). Instrument groups are encouraged to provide a similar meta-data template to help others in the use and crediting of their data.
+File meta data should include all the identifiers, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A_platforms.yml](EUREC4A_platforms.yml). Instrument groups are encouraged to provide a similar meta-data template to help others in the use and crediting of their data.
 
 ### Coordinates and variables
 
