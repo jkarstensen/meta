@@ -9,7 +9,7 @@ The identifiers are as follows, not every identifier will apply to every instanc
 
   * **campaign-ID:**  EUREC4A
   * **project-ID:**  An optional identifier to allow groups to give additional specificity to a set of measurements collected with different platforms, for instance ATOMIC
-  * **platform-ID:**  An identifier drawn from a controlled vocabulary specifying a platform from which the data was collected.  See [EUREC4A_platforms.yml](EUREC4A_platforms.yml) for a list of platform-IDs.
+  * **platform-ID:**  An identifier drawn from a controlled vocabulary specifying a platform from which the data was collected.  See [EUREC4A_platforms.yml](EUREC4A_platforms.yml) which maps platform_IDs to platform meta-data.
   * **instrument-ID:**  Specifies an instrument from which a measurement has been made.  Ideally similar instruments from different platforms will adopt similar identifiers. Level 2 data will often have a platform-ID and instrument-ID, but in some cases an instrument and platform may be synoymous.  
   * **product-ID:**  An optional identifier to be used with the instrument-ID to allow groups the flexibility to group measurements in different ways, i.e., SAFIRE_Aerosol might designate a bundle of aerosol instruments run by SAFIRE.
   * **variable-ID:** A specific quantity. Usually this will be the output from a sensor, but it could also be a derived or composite variable.  Examples might be a voltage on a power supply, a temperature reading, a radar reflectivity, the latitude and longitude of a track, or maybe the divergence from a sounding circle. 
@@ -34,7 +34,7 @@ We envision every file beginning with the Campaign_ID and ends with the Version_
 
 ### File metadata
 
-File meta data should include all the identifiers, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms (EUREC4A_platforms.yaml). Instrument groups are encouraged to provide a similar meta-data template to help others in the use and crediting of their data.
+File meta data should include all the identifiers, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A_platforms.yml](EUREC4A_platforms.yml)). Instrument groups are encouraged to provide a similar meta-data template to help others in the use and crediting of their data.
 
 ### Coordinates and variables
 
