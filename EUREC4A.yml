@@ -139,7 +139,7 @@ ATR:
     - name: Sandrine Bony
       email: bony@lmd.jussieu.fr
       tags: !!set {pi, dp}
-    - name: Julien Delanoé
+    - name: Julien Delanoë
       email: julien.delanoe@latmos.ipsl.fr
       tags: !!set {pi, dp}
   color: orange
