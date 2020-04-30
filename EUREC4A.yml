@@ -1,6 +1,6 @@
 # YaML for meta data related to various research platforms
 # - Each platform is labeled by its platform_ID, a controled word
-# - Mandatory fields are long_name, aliases, platform_type, home, and contacts
+# - Mandatory fields are long_name, platform_type, home, and contacts
 # - the set of contact tags denote:  pi (principal investigator, i.e., science or co-science lead), dp (data-provider), fm (facility manager), tl (technical lead or co-lead)
 # - may add instrument_ids as list for additional field in future versions or these may only appear in platform_id.yml files, i.e., EUREC4A_HALO.yml
 #
