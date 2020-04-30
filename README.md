@@ -1,5 +1,5 @@
 ## EUREC4A
-Shared code and standards designed to ease the EUREC4A data analysis
+Shared code and standards designed to structure the EUREC4A data reposistory, improve treatment of meta data and thereby ease the EUREC4A data analysis
 
 
 ### Identifiers
