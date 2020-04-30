@@ -5,7 +5,7 @@ Shared code and standards designed to ease the EUREC4A data analysis
 ### Identifiers
 The data repository, will be built around a controlled vocabulary consisting of a hierarchy of identifiers.  We also encourage the use of these identifiers in building file names and for inclusion as file meda-data.  We hope that doing so will help all of us see and more effectively use the diversity of data that has been collected, and also ease collaboration.
 
-The identifiers are as follows, not every identifier will apply to every instance:
+The identifiers are as follows, not every identifier will apply to every instance of the data:
 
   * **campaign-ID:**  EUREC4A
   * **project-ID:**  An optional identifier to allow groups to give additional specificity to a set of measurements collected with different platforms, for instance ATOMIC
@@ -16,7 +16,7 @@ The identifiers are as follows, not every identifier will apply to every instanc
   * **time-ID:** For some data it may be useful to indicate the time of the measurement or the time-range of the data included in the file.  This will adopt the form yyyyddmmTHHMMSS-yyyyddmmTHHMMSS, or e.g., yyyymmdd for a single instance. 
  * **version-ID:** The data versioning, in the form vN.M with N and M integers. Using version 0 for preliminary data is encouraged.
 
-The EUREC4A data base will use the platform-ID at hits highest-level of structure, and depending on the platform include sub-directories labeled by some (possibly empty) subset of instrument-ID, product-ID or variable-ID.  It will not organize data by project-ID, nor by time-ID.
+The EUREC4A data base will use the platform-ID as the first level of data granualrity. Depending on the platform, additional levels of granularity (sub-directories) may be included and labeled by some (possibly empty) subset of instrument-ID, product-ID or variable-ID.  It will not organize data by project-ID, nor by time-ID.
 
 ### File naming conventions
 
