@@ -9,7 +9,7 @@ The identifiers are as follows, not every identifier will apply to every instanc
 
   * **campaign-ID:**  EUREC4A
   * **project-ID:**  An optional identifier to allow groups to give additional specificity to a set of measurements collected with different platforms, for instance ATOMIC
-  * **platform-ID:**  An identifier drawn from a controlled vocabulary specifying a platform from which the data was collected.  See [EUREC4A_platforms.yml] for a list of platform-IDs.
+  * **platform-ID:**  An identifier drawn from a controlled vocabulary specifying a platform from which the data was collected.  See [EUREC4A_platforms.yml](EUREC4A_platforms.yml) for a list of platform-IDs.
   * **instrument-ID:**  Specifies an instrument from which a measurement has been made.  Ideally similar instruments from different platforms will adopt similar identifiers. Level 2 data will often have a platform-ID and instrument-ID, but in some cases an instrument and platform may be synoymous.  
   * **product-ID:**  An optional identifier to be used with the instrument-ID to allow groups the flexibility to group measurements in different ways, i.e., SAFIRE_Aerosol might designate a bundle of aerosol instruments run by SAFIRE.
   * **variable-ID:** A specific quantity. Usually this will be the output from a sensor, but it could also be a derived or composite variable.  Examples might be a voltage on a power supply, a temperature reading, a radar reflectivity, the latitude and longitude of a track, or maybe the divergence from a sounding circle. 
