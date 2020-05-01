@@ -540,7 +540,7 @@ SWIFT16:
   aliases:
     - SW16
     - SW-16
-    - SWIFT16
+    - SWIFT-16
   platform_type: Drifting Buoy
   home:
     institution : UW Applied Physics Lab
@@ -556,7 +556,7 @@ SWIFT17:
   aliases:
     - SW17
     - SW-17
-    - SWIFT17
+    - SWIFT-17
   platform_type: Drifting Buoy
   home:
     institution : UW Applied Physics Lab
@@ -572,7 +572,7 @@ SWIFT22:
   aliases:
     - SW22
     - SW-22
-    - SWIFT22
+    - SWIFT-22
   platform_type: Drifting Buoy
   home:
     institution : UW Applied Physics Lab
@@ -588,7 +588,7 @@ SWIFT23:
   aliases:
     - SW23
     - SW-23
-    - SWIFT23
+    - SWIFT-23
   platform_type: Drifting Buoy
   home:
     institution : UW Applied Physics Lab
@@ -604,7 +604,7 @@ SWIFT24:
   aliases:
     - SW24
     - SW-24
-    - SWIFT24
+    - SWIFT-24
   platform_type: Drifting Buoy
   home:
     institution : UW Applied Physics Lab
@@ -620,7 +620,7 @@ SWIFT25:
   aliases:
     - SW25
     - SW-25
-    - SWIFT25
+    - SWIFT-25
   platform_type: Drifting Buoy
   home:
     institution : UW Applied Physics Lab
