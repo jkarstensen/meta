@@ -30,11 +30,11 @@ Examples could be
   - EUREC4A_ATOMIC_SWIFT-12_T05_20200120-20200212_v1.0.nc
   - EUREC4A_Dropsonde_Circles_Divergence_v3.3.nc
 
-We envision every file beginning with the Campaign-ID and ends with the Version-ID and includes at least one further ID to add content specificity.
+We envision every file beginning with the campaign-ID and ends with the version-ID and includes at least one further ID to add content specificity.
 
 ### File metadata
 
-File metadata should include all the identifiers, i.e., Platform_ID: "ATR", Campaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A.yml](EUREC4A.yml). Instrument groups are encouraged to provide a similar metadata template to help others in the use and crediting of their data.
+File metadata should include all the identifiers, i.e., platform_ID: "ATR", aampaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A.yml](EUREC4A.yml). Instrument groups are encouraged to provide a similar metadata template to help others in the use and crediting of their data.
 
 ### Coordinates and variables
 
