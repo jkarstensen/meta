@@ -38,7 +38,7 @@ File metadata should include all the identifiers, i.e., Platform_ID: "ATR", Camp
 
 ### Coordinates and variables
 
-We suggest a controlled vocabulary for position information, i.e., time (seconds since YYYY-MM-DDTHH:MM:SS, lat (degree_north), lon (degree_east), height (m), depth (m).  Again coordination among instrument scientists so that similar instruments across different platforms have the same name would be desirable.
+We suggest a controlled vocabulary for position information, i.e., time (seconds since 1970-01-01, lat (degree_north), lon (degree_east), z (m).  Again coordination among instrument scientists so that similar instruments across different platforms have the same name would be desirable.
 
 ### Metadata concept
 
