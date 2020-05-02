@@ -30,7 +30,7 @@ Examples could be
   - EUREC4A_ATOMIC_SWIFT-12_T05_20200120-20200212_v1.0.nc
   - EUREC4A_Dropsonde_Circles_Divergence_v3.3.nc
 
-We envision every file beginning with the Campaign_ID and ends with the Version_ID and includes at least one further ID to add content specificity.
+We envision every file beginning with the Campaign-ID and ends with the Version-ID and includes at least one further ID to add content specificity.
 
 ### File metadata
 
