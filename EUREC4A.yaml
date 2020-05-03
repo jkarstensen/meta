@@ -1,0 +1,1000 @@
+# YAML for meta data related to various research platforms
+# - Each platform is labeled by its platform_ID, a controled word
+# - Mandatory fields are long_name, platform_type, home, and contacts
+# - the set of contact tags denote:  pi (principal investigator, i.e., science or co-science lead), dp (data-provider), fm (facility manager), tl (technical lead or co-lead)
+# - may add instrument_ids as list for additional field in future versions or these may only appear in platform_id.yml files, i.e., EUREC4A_HALO.yml
+#
+
+# Groundsites
+#
+BCO:
+  long_name: Barbados Cloud Observatory
+  aliases:
+    - Cloud Observatory
+    - Deebles Point
+  platform_type: Groundsite
+  home:
+    institution : Max Planck Institute for Meteorology
+    country: Germany
+    url: http://barbados.mpimet.mpg.de
+  contacts:
+    - name: Friedhelm Jansen
+      email: friedhelm.jansen@mpimet.mpg.de
+      tags: !!set {fm, tl, dp}
+    - name: Marvin Forde
+      email: mforde@cimh.edu.bb
+      tags: !!set {tl}
+  color: blue
+POLDIRAD:
+  long_name: DLR Polarization Diversity Doppler Radar
+  aliases:
+    - C-band Radar
+  platform_type: Scanning Radar
+  home:
+    institution : DLR
+    country: Germany
+    url: http://www.pa.op.dlr.de/poldirad/
+  contacts:
+    - name: Martin Hagen
+      email: martin.hagen@dlr.de
+      tags: !!set {pi, dp}
+    - name: Florian Ewald
+      email: florian.ewald@dlr.de
+      tags: !!set {dp}
+  color: royalblue
+  
+#
+# Research Vessels
+Atalante:
+  long_name: RV L'Atalante
+  aliases:
+    - L'Atalante
+    - LAtalante
+  platform_type: Research Vessel
+  home:
+    institution: L'ifremer
+    country: France
+    url: https://www.flotteoceanographique.fr/La-Flotte/Navires-hauturiers/L-Atalante
+  contacts:
+    - name: Sabrina Speich
+      email: Sabrina.speich@lmd.ens.fr
+      tags: !!set {pi}
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {ci}
+  color: goldenrod
+Meteor:
+  long_name: RV Meteor
+  aliases:
+    - FS Meteor
+    - M
+  platform_type: Research Vessel
+  home:
+    institution: DFG
+    country: Germany
+    url: https://www.ldf.uni-hamburg.de/meteor.html
+  contacts:
+    - name: Wiebke Mohr
+      email: wmohr@mpi-bremen.de
+      tags: !!set {pi}
+    - name: Stefan Kinne
+      email: stefan.kinne@mpimet.mpg.de
+      tags: !!set {ci}
+  color: dodgerblue
+MS-Merian:
+  long_name: RV Maria S. Merian
+  aliases:
+    - Merian
+    - MSM
+    - MariaSMerian
+    - MSMerian
+    - FS Maria S Merian
+    - DBBT
+  platform_type: Research Vessel
+  home:
+    institution: DFG
+    country: Germany
+    url: https://www.ldf.uni-hamburg.de/meteor.html
+  contacts:
+    - name: Johannes Karstensen
+      email: jkarstensen@geomar.de
+      tags: !!set {pi, dp}
+    - name: Gaute Lavic
+      email: glavik@mpi-bremen.de
+      tags: !!set {pi, dp}
+  color: midnightblue
+RonBrown:
+  long_name: RV Ronald H. Brown
+  aliases:
+    - Brown
+    - RHB
+    - RH-Brown
+    - RonHBrown
+  platform_type: Research Vessel
+  home:
+    institution : NOAA
+    country: USA
+    url: https://www.omao.noaa.gov/learn/marine-operations/ships/ronald-h-brown
+  contacts:
+    - name: Patricia (Trish) Quinn
+      email: patricia.k.quinn@noaa.gov
+      tags: !!set {pi, dp}
+  color: grey
+
+# aircraft
+#
+ATR:
+  long_name: SAFIRE ATR-42
+  aliases:
+    - ATR-42
+    - HMTO
+  platform_type: Research Aircraft
+  home:
+    institution : SAFIRE
+    country: France
+    url: http://www.safire.fr/en/content_page/safire-utilisateurs/latr42-2.html
+  instrument_IDs: {RASTA, BASTA, PICARRO, ALIAS, SAFIRE, UHSS, PMA, CLIMAT}
+  contacts:
+    - name: Sandrine Bony
+      email: bony@lmd.jussieu.fr
+      tags: !!set {pi, dp}
+    - name: Julien Delanoë
+      email: julien.delanoe@latmos.ipsl.fr
+      tags: !!set {pi, dp}
+  color: orange
+HALO:
+  long_name: HALO
+  aliases:
+    - DLR-HALO
+    - High Altitude Long Range
+  platform_type: Research Aircraft
+  home:
+    institution : DLR
+    country: Germany
+    url: https://www.halo.dlr.de
+  instrument_IDs: {BAHAMAS, HAMP-Radar, HAMP-Radiometers, WALES, specMACS, SMART, VELOX, VELOX-KT19, BACARDI}
+  contacts:
+    - name: Bjorn Stevens
+      email: bjorn.stevens@mpimet.mpg.de
+      tags: !!set {pi}
+    - name: Felix Ament
+      email: felix.ament@uni-hamburg.de
+      tags: !!set {pi}
+  color: teal
+TO:
+  long_name: BAS Twin Otter VP-FAZ
+  aliases:
+    - Twin-Otter
+    - Twin Otter
+    - DHC6
+  platform_type: Research Aircraft
+  home:
+    institution : British Antarctic Survey
+    country: UK
+    url: https://www.bas.ac.uk/polar-operations/sites-and-facilities/facility/airborne-science-and-technology/twin-otter-meteorological-airborne-science-instrumentation-masin/
+  contacts:
+    - name: Alan Blyth
+      email: a.m.blyth@leeds.ac.uk
+      tags: !!set {pi, dp}
+    - name: Tom Lachlan-Cope
+      email: tlc@bas.ac.uk
+      tags: !!set {pi, dp}
+  color: red
+P3:
+  long_name: NOAA Lockheed WP-3D Orion
+  aliases:
+    - WP-3
+    - WP-3D
+    - Miss Piggy
+    - NOAA43
+  platform_type: Research Aircraft
+  home:
+    institution : NOAA
+    country: USA
+    url: https://www.omao.noaa.gov/learn/aircraft-operations/aircraft/lockheed-wp-3d-orion
+  contacts:
+    - name: Chris Fairall
+      email: chris.fairall@noaa.gov
+      tags: !!set {pi, dp}
+    - name: Robert Pincus
+      email:  Robert.Pincus@colorado.edu
+      tags: !!set {pi, dp}
+  color: steelblue
+RSS:
+  long_name: Regional Security System
+  aliases:
+    - C26-A
+    - RSS-A1
+  platform_type: Research Aircraft
+  home:
+    institution : Regional Security System
+    country: Barbados
+    url: www.rss.org.bb
+  contacts:
+    - name: David Farrell
+      email: dfarrell@cimh.edu.bb
+      tags: !!set {pi, dp}
+  color: blue
+
+# CloudKites
+#
+MPCK-plus:
+  long_name: Max Planck CloudKite
+  aliases:
+    - CloudKite
+     - MPCK+
+  platform_type: CloudKite
+  home:
+    institution : MPI for  Dynamics and Self-Organization
+    country: Germany
+    url: http://www.lfpn.ds.mpg.de/MCO/ck.html
+  contacts:
+    - name: Eberhard Bodenschatz
+      email: eberhard.bodenschatz@ds.mpg.de
+      tags: !!set {pi}
+    - name: Mohsen (Gholamhossein) Bagheri
+      email: gholamhossein.bagheri@ds.mpg.de
+      tags: !!set {pi, dp}
+  color: red
+mini-MPCK:
+  long_name: Miniaturized Max Planck CloudKite
+  aliases:
+    - Mini-MPCK
+    - Mini CloudKite
+  platform_type: CloudKite
+  home:
+    institution : MPI for  Dynamics and Self-Organization
+    country: Germany
+    url: http://www.lfpn.ds.mpg.de/MCO/ck.html
+  contacts:
+    - name: Eberhard Bodenschatz
+      email: eberhard.bodenschatz@ds.mpg.de
+      tags: !!set {pi}
+    - name: Mohsen (Gholamhossein) Bagheri
+      email: gholamhossein.bagheri@ds.mpg.de
+      tags: !!set {pi, dp}
+  color: firebrick
+# drones
+#
+BOREAL:
+  long_name: SAS BORÉAL
+  aliases:
+    - boréal
+    - BOR1
+  platform_type: UAS
+  home:
+    institution : Metéo-France
+    country: France
+    url: http://www.boreal-uas.com/
+  contacts:
+    - name: Greg Roberts
+      email: greg.roberts@meteo.fr
+      tags: !!set {pi, dp}
+    - name: Christophe Mazel
+      email: cmazel@dronexsolution.com
+      tags: !!set {fm}
+  color: blue
+CU-RAAVEN:
+  long_name: Robust Autonomous Aerial Vehicle-Endurant Nimble
+  aliases:
+    - RAAVEN
+    - CURAAVEN
+    - RAAVENFlux UAS
+    - University of Colorado RAAVENFlux UAS
+  platform_type: UAS
+  home:
+    institution : University of Colorado (CU)
+    country: USA
+    url: https://www.colorado.edu/engineering/2019/07/01/meet-raaven-drone-gathers-data-storms
+  contacts:
+    - name: Gijs de Boer
+      email: gijs.deboer@colorado.edu
+      tags: !!set {pi, dp}
+  color: gold
+  
+# sail-drones
+#
+SD-1063:
+  long_name: Saildrone 1063
+  aliases:
+    - SD1063
+    - 1063
+    - SDAA
+  platform_type: Saildrone
+  home:
+    institution: NOAA
+    country: USA
+    url: https://www.pmel.noaa.gov
+  contacts:
+    - name: Dongxiao Zhang
+      email: dongxiao.zhang@noaa.gov
+      tags: !!set {pi, dp}
+  color: orangered
+SD-1064:
+  long_name: Saildrone 1064
+  aliases:
+    - SD1064
+    - 1064
+    - SDAB
+  platform_type: Saildrone
+  home:
+    institution: NOAA
+    country: USA
+    url: https://www.pmel.noaa.gov
+  contacts:
+    - name: Dongxiao Zhang
+      email: dongxiao.zhang@noaa.gov
+      tags: !!set {pi, dp}
+  color: orangered
+SD-1026:
+  long_name: Saildrone 1026
+  aliases:
+    - SD1026
+    - 1026
+    - SD26
+  platform_type: Saildrone
+  home:
+    institution: saildrone
+    country: USA
+    url: https://saildrone.com
+  contacts:
+    - name: saildrone
+      email: support@saildrone.com
+      tags: !!set {fm, dp}
+  color: orangered
+SD-1060:
+  long_name: Saildrone 1060
+  aliases:
+    - SD1060
+    - 1060
+    - SD60
+  platform_type: Saildrone
+  home:
+    institution: saildrone
+    country: USA
+    url: https://saildrone.com
+  contacts:
+    - name: saildrone
+      email: support@saildrone.com
+      tags: !!set {fm, dp}
+  color: orangered
+SD-1061:
+  long_name: Saildrone  1061
+  aliases:
+    - SD1061
+    - 1061
+    - SD61
+  platform_type: Saildrone
+  home:
+    institution: saildrone
+    country: USA
+    url: https://saildrone.com
+  contacts:
+    - name: saildrone
+      email: support@saildrone.com
+      tags: !!set {fm, dp}
+  color: orangered
+
+# wave gliders
+#
+Caravela:
+  long_name: caravela
+  aliases:
+      - autonaut
+  platform_type: Wave Glider
+  home:
+      institution: University of East Anglia
+      country: UK
+      url: https://people.uea.ac.uk/k_heywood
+  contacts:
+    - name: Karen Heywood
+      email: K.Heywood@uea.ac.uk
+      tags: !!set {pi, dp}
+  color: black
+
+WG245:
+  long_name: Wave Glider SV3-245
+  aliases:
+    - SV3-245
+    - WG45
+    - WG-245
+  platform_type: Wave Glider
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://apl-uw.wgms.com/
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: black
+
+WG247:
+  long_name: Wave Glider SV3-247
+  aliases:
+    - SV3-247
+    - WG47
+    - WG247
+  platform_type: Wave Glider
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://apl-uw.wgms.com/
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: black
+# seagliders
+#
+Melonhead:
+  long_name: melonhead
+  aliases:
+    - SG620
+    - 620
+  platform_type: Sea Glider
+  home:
+    institution: University of East Anglia
+    country: UK
+    url: https://people.uea.ac.uk/k_heywood
+  contacts:
+    - name: Karen Heywood
+      email: K.Heywood@uea.ac.uk
+      tags: !!set {pi, dp}
+  color: black
+Humpback:
+  long_name: humpback
+  aliases:
+    - SG579
+    - 579
+  platform_type: Sea Glider
+  home:
+    institution: University of East Anglia
+    country: UK
+    url: https://people.uea.ac.uk/k_heywood
+  contacts:
+    - name: Karen Heywood
+      email: K.Heywood@uea.ac.uk
+      tags: !!set {pi, dp}
+  color: black
+Omura:
+  long_name: omura
+  aliases:
+    - SG637
+    - 637
+  platform_type: Sea Glider
+  home:
+    institution: University of East Anglia
+    country: UK
+    url: https://people.uea.ac.uk/k_heywood
+  contacts:
+    - name: Karen Heywood
+      email: K.Heywood@uea.ac.uk
+      tags: !!set {pi, dp}
+  color: black
+Kracken:
+  long_name: kracken
+  aliases:
+    - 6801500
+    - KRKN
+  platform_type: Sea Glider
+  home:
+    institution: CNRS
+    country: France
+    url: https://www.alseamar-alcen.com/products/underwater-glider/seaexplorer
+  contacts:
+    - name: Sabrina Speich
+      email: Sabrina.speich@lmd.ens.fr
+      tags: !!set {pi, dp}
+  color: black
+IFM03:
+  long_name: OceanGlider IFM03
+  aliases:
+    - 6801500
+    - OGO3
+    - ifm03
+  platform_type: Sea Glider
+  home:
+    institution: GEOMAR
+    country: Germany
+    url: https://gliderweb.geomar.de/
+  contacts:
+    - name: Johannes Karstensen
+      email: jkarstensen@geomar.de
+      tags: !!set {pi, dp}
+  color: black
+IFM09:
+  long_name: OceanGlider IFM09
+  aliases:
+    - OGO9
+    - ifm09
+  platform_type: Sea Glider
+  home:
+    institution: GEOMAR
+    country: Germany
+    url: https://gliderweb.geomar.de/
+  contacts:
+    - name: Johannes Karstensen
+      email: jkarstensen@geomar.de
+      tags: !!set {pi, dp}
+  color: black
+IFM12:
+  long_name: OceanGlider IFM12
+  aliases:
+    - OG12
+    - ifm12
+  platform_type: Sea Glider
+  home:
+    institution: GEOMAR
+    country: Germany
+    url: https://gliderweb.geomar.de/
+  contacts:
+    - name: Johannes Karstensen
+      email: jkarstensen@geomar.de
+      tags: !!set {pi, dp}
+  color: black
+
+# drifters
+#
+SWIFT16:
+  long_name: SWIFT buoy 16
+  aliases:
+    - SW16
+    - SW-16
+    - SWIFT-16
+  platform_type: Drifting Buoy
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://www.apl.uw.edu/swift
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: purple
+SWIFT17:
+  long_name: SWIFT buoy 17
+  aliases:
+    - SW17
+    - SW-17
+    - SWIFT-17
+  platform_type: Drifting Buoy
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://www.apl.uw.edu/swift
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: purple
+SWIFT22:
+  long_name: SWIFT buoy 22
+  aliases:
+    - SW22
+    - SW-22
+    - SWIFT-22
+  platform_type: Drifting Buoy
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://www.apl.uw.edu/swift
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: purple
+SWIFT23:
+  long_name: SWIFT buoy 23
+  aliases:
+    - SW23
+    - SW-23
+    - SWIFT-23
+  platform_type: Drifting Buoy
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://www.apl.uw.edu/swift
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: purple
+SWIFT24:
+  long_name: SWIFT buoy 24
+  aliases:
+    - SW24
+    - SW-24
+    - SWIFT-24
+  platform_type: Drifting Buoy
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://www.apl.uw.edu/swift
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: purple
+SWIFT25:
+  long_name: SWIFT buoy 25
+  aliases:
+    - SW25
+    - SW-25
+    - SWIFT-25
+  platform_type: Drifting Buoy
+  home:
+    institution : UW Applied Physics Lab
+    country: USA
+    url: http://www.apl.uw.edu/swift
+  contacts:
+    - name: Jim Thomson
+      email: jthomson@apl.washington.edu
+      tags: !!set {pi, dp}
+  color: purple
+SVP-B-4101696:
+  long_name: Surface Velocity Program Barometer Drifter 4101696
+  aliases:
+    - SVP-4101696
+    - 4101696
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Rick Lumpkin
+      email: rick.lumpkin@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-B-4101697:
+  long_name: Surface Velocity Program Barometer Drifter 4101697
+  aliases:
+    - SVP-4101697
+    - 4101697
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Rick Lumpkin
+      email: rick.lumpkin@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-B-4101698:
+  long_name: Surface Velocity Program Barometer Drifter 4101698
+  aliases:
+    - SVP-4101698
+    - 4101698
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Rick Lumpkin
+      email: rick.lumpkin@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-B-4101699:
+  long_name: Surface Velocity Program Barometer Drifter 4101699
+  aliases:
+    - SVP-4101699
+    - 4101699
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Rick Lumpkin
+      email: rick.lumpkin@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-B-4101780:
+  long_name: Surface Velocity Program Barometer Drifter 4101780
+  aliases:
+    - SVP-4101780
+    - 4101780
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Rick Lumpkin
+      email: rick.lumpkin@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101569:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101569
+  aliases:
+    - SVP-3101569
+    - 3101569
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101570:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101570
+  aliases:
+    - SVP-3101570
+    - 3101570
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101571:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101571
+  aliases:
+    - SVP-3101571
+    - 3101571
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101572:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101572
+  aliases:
+    - SVP-3101572
+    - 3101572
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101573:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101573
+  aliases:
+    - SVP-3101573
+    - 3101573
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101574:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101574
+  aliases:
+    - SVP-3101574
+    - 3101574
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101575:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101575
+  aliases:
+    - SVP-3101575
+    - 3101575
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101576:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101576
+  aliases:
+    - SVP-3101576
+    - 3101576
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101577:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101577
+  aliases:
+    - SVP-3101577
+    - 3101577
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BSW-3101578:
+  long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101578
+  aliases:
+    - SVP-3101578
+    - 3101578
+  platform_type: SVP Drifter
+  home:
+    institution : NOAA/AOML
+    country: USA
+    url: https://www.aoml.noaa.gov/phod/
+  contacts:
+    - name: Greg Foltz
+      email: gregory.foltz@noaa.gov
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BRST-4402505:
+  long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402505
+  aliases:
+    - SVP-4402505
+    - 4402505
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BRST-4402506:
+  long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402506
+  aliases:
+    - SVP-4402506
+    - 4402506
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BRST-4402507:
+  long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402507
+  aliases:
+    - SVP-4402507
+    - 4402507
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BRST-4402508:
+  long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402508
+  aliases:
+    - SVP-4402508
+    - 4402508
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BRST-6203717:
+  long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 6203717
+  aliases:
+    - SVP-6203717
+    - 6203717
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BS-4101757:
+  long_name: Surface Velocity Program Barometer and Salinity Drifter 4101757
+  aliases:
+    - SVP-4101757
+    - 4101757
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
+SVP-BS-4101758:
+  long_name: Surface Velocity Program Barometer and Salinity Drifter 4101758
+  aliases:
+    - SVP-4101758
+    - 4101758
+  platform_type: SVP Drifter
+  home:
+    institution : Météo-France
+    country: France
+    url: https://www.aoml.noaa.gov/phod/gdp/
+  contacts:
+    - name: Gilles Reverdin
+      email: gilles.reverdin@locean-ipsl.upmc.fr
+      tags: !!set {pi, dp}
+    - name: Gilbert Emzivat
+      email: gilbert.emzivat@meteo.fr
+      tags: !!set {pi, dp}
+  color: fuchsia
