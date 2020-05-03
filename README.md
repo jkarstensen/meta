@@ -9,7 +9,7 @@ The identifiers are as follows, not every identifier will apply to every instanc
 
   * **campaign-ID:**  EUREC4A
   * **project-ID:**  An optional identifier to allow groups to give additional specificity to a set of measurements collected with different platforms, for instance ATOMIC.
-  * **platform-ID:**  An identifier drawn from a controlled vocabulary specifying a platform from which the data was collected.  See [EUREC4A.yml](EUREC4A.yml) which maps platform_IDs to platform metadata.
+  * **platform-ID:**  An identifier drawn from a controlled vocabulary specifying a platform from which the data was collected.  See [EUREC4A.yaml](EUREC4A.yaml) which maps platform_IDs to platform metadata.
   * **instrument-ID:**  Specifies an instrument from which a measurement has been made.  Ideally similar instruments from different platforms will adopt similar identifiers. Level 2 data will often have a platform-ID and instrument-ID, but in some cases an instrument and platform may be synoymous.  
   * **product-ID:**  An optional identifier to be used with the instrument-ID to allow groups the flexibility to group measurements in different ways, i.e., SAFIRE_Aerosol might designate a bundle of aerosol instruments run by SAFIRE.
   * **variable-ID:** A specific quantity. Usually this will be the output from a sensor, but it could also be a derived or composite variable.  Examples might be a voltage on a power supply, a temperature reading, a radar reflectivity, the latitude and longitude of a track, or maybe the divergence from a sounding circle. 
@@ -34,7 +34,7 @@ We envision every file beginning with the campaign-ID and ends with the version-
 
 ### File metadata
 
-File metadata should include all the identifiers, i.e., platform_ID: "ATR", aampaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A.yml](EUREC4A.yml). Instrument groups are encouraged to provide a similar metadata template to help others in the use and crediting of their data.
+File metadata should include all the identifiers, i.e., platform_ID: "ATR", aampaign_ID: "EUREC4A" and additionally contain contact information of the person or organization responsible for the file (its creator). Often the contact will be the PI for the platform (or instrument) or the creator for the derived product.  YAML databases are being provided for the EUREC4A community as a whole for the platforms [EUREC4A.yaml](EUREC4A.yaml). Instrument groups are encouraged to provide a similar metadata template to help others in the use and crediting of their data.
 
 ### Coordinates and variables
 
@@ -42,4 +42,4 @@ We suggest a controlled vocabulary for position information, i.e., time (seconds
 
 ### Metadata concept
 
-Ideally the EUREC4A metadata would be sourced from the owners of the objects the metadata describes.  That is each instrument would provide an instrument-ID.yml file, with a minimal of controlled language, and a subset of this infomation would be inherited by a platform-ID.yml.  The campaign-ID.yml could then inherit the information from the plafform.  This would ensure that all the metadata is sourced to the owners.  At each stage of the process additional information could be included an inherited.  An example would be the flight-track dictionsaries being developed for HALO, which would then find their way into the EUREC4A_HALO.yml file.
+Ideally the EUREC4A metadata would be sourced from the owners of the objects the metadata describes.  That is each instrument would provide an instrument-ID.yaml file, with a minimal of controlled language, and a subset of this infomation would be inherited by a platform-ID.yaml.  The campaign-ID.yaml could then inherit the information from the plafform.  This would ensure that all the metadata is sourced to the owners.  At each stage of the process additional information could be included an inherited.  An example would be the flight-track dictionsaries being developed for HALO, which would then find their way into the EUREC4A_HALO.yaml file.
