@@ -1,5 +1,5 @@
 # YAML for meta data related to various research platforms
-# - Each platform is labeled by its platform_ID, a controled word
+# - Each platform is labeled by its platform_id, a controled word
 # - Mandatory fields are long_name, platform_type, home, and contacts
 # - the set of contact tags denote:  pi (principal investigator, i.e., science or co-science lead), dp (data-provider), fm (facility manager), tl (technical lead or co-lead)
 # - may add instrument_ids as list for additional field in future versions or these may only appear in platform_id.yml files, i.e., EUREC4A_HALO.yml
@@ -133,7 +133,7 @@ ATR:
     institution : SAFIRE
     country: France
     url: http://www.safire.fr/en/content_page/safire-utilisateurs/latr42-2.html
-  instrument_IDs: {RASTA, BASTA, PICARRO, ALIAS, SAFIRE, UHSS, PMA, CLIMAT}
+  instrument_ids: {RASTA, BASTA, PICARRO, ALIAS, SAFIRE, UHSS, PMA, CLIMAT}
   contacts:
     - name: Sandrine Bony
       email: bony@lmd.jussieu.fr
@@ -152,7 +152,7 @@ HALO:
     institution : DLR
     country: Germany
     url: https://www.halo.dlr.de
-  instrument_IDs: {BAHAMAS, HAMP-Radar, HAMP-Radiometers, WALES, specMACS, SMART, VELOX, VELOX-KT19, BACARDI}
+  instrument_ids: {BAHAMAS, HAMP-Radar, HAMP-Radiometers, WALES, specMACS, SMART, VELOX, VELOX-KT19, BACARDI}
   contacts:
     - name: Bjorn Stevens
       email: bjorn.stevens@mpimet.mpg.de
