@@ -298,7 +298,7 @@ SD-1063:
   long_name: Saildrone 1063
   aliases:
     - SD1063
-    - 1063
+    - "1063"
     - SDAA
   platform_type: Saildrone
   home:
@@ -314,7 +314,7 @@ SD-1064:
   long_name: Saildrone 1064
   aliases:
     - SD1064
-    - 1064
+    - "1064"
     - SDAB
   platform_type: Saildrone
   home:
@@ -330,7 +330,7 @@ SD-1026:
   long_name: Saildrone 1026
   aliases:
     - SD1026
-    - 1026
+    - "1026"
     - SD26
   platform_type: Saildrone
   home:
@@ -346,7 +346,7 @@ SD-1060:
   long_name: Saildrone 1060
   aliases:
     - SD1060
-    - 1060
+    - "1060"
     - SD60
   platform_type: Saildrone
   home:
@@ -362,7 +362,7 @@ SD-1061:
   long_name: Saildrone  1061
   aliases:
     - SD1061
-    - 1061
+    - "1061"
     - SD61
   platform_type: Saildrone
   home:
@@ -431,7 +431,7 @@ Melonhead:
   long_name: melonhead
   aliases:
     - SG620
-    - 620
+    - "620"
   platform_type: Sea Glider
   home:
     institution: University of East Anglia
@@ -446,7 +446,7 @@ Humpback:
   long_name: humpback
   aliases:
     - SG579
-    - 579
+    - "579"
   platform_type: Sea Glider
   home:
     institution: University of East Anglia
@@ -461,7 +461,7 @@ Omura:
   long_name: omura
   aliases:
     - SG637
-    - 637
+    - "637"
   platform_type: Sea Glider
   home:
     institution: University of East Anglia
@@ -475,7 +475,7 @@ Omura:
 Kracken:
   long_name: kracken
   aliases:
-    - 6801500
+    - "6801500"
     - KRKN
   platform_type: Sea Glider
   home:
@@ -490,7 +490,7 @@ Kracken:
 IFM03:
   long_name: OceanGlider IFM03
   aliases:
-    - 6801500
+    - "6801500"
     - OGO3
     - ifm03
   platform_type: Sea Glider
@@ -636,7 +636,7 @@ SVP-B-4101696:
   long_name: Surface Velocity Program Barometer Drifter 4101696
   aliases:
     - SVP-4101696
-    - 4101696
+    - "4101696"
   platform_type: SVP Drifter
   home:
     institution : NOAA/Météo-France
@@ -654,7 +654,7 @@ SVP-B-4101697:
   long_name: Surface Velocity Program Barometer Drifter 4101697
   aliases:
     - SVP-4101697
-    - 4101697
+    - "4101697"
   platform_type: SVP Drifter
   home:
     institution : NOAA/Météo-France
@@ -672,7 +672,7 @@ SVP-B-4101698:
   long_name: Surface Velocity Program Barometer Drifter 4101698
   aliases:
     - SVP-4101698
-    - 4101698
+    - "4101698"
   platform_type: SVP Drifter
   home:
     institution : NOAA/Météo-France
@@ -690,7 +690,7 @@ SVP-B-4101699:
   long_name: Surface Velocity Program Barometer Drifter 4101699
   aliases:
     - SVP-4101699
-    - 4101699
+    - "4101699"
   platform_type: SVP Drifter
   home:
     institution : NOAA/Météo-France
@@ -708,7 +708,7 @@ SVP-B-4101780:
   long_name: Surface Velocity Program Barometer Drifter 4101780
   aliases:
     - SVP-4101780
-    - 4101780
+    - "4101780"
   platform_type: SVP Drifter
   home:
     institution : NOAA/Météo-France
@@ -726,7 +726,7 @@ SVP-BSW-3101569:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101569
   aliases:
     - SVP-3101569
-    - 3101569
+    - "3101569"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -741,7 +741,7 @@ SVP-BSW-3101570:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101570
   aliases:
     - SVP-3101570
-    - 3101570
+    - "3101570"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -756,7 +756,7 @@ SVP-BSW-3101571:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101571
   aliases:
     - SVP-3101571
-    - 3101571
+    - "3101571"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -771,7 +771,7 @@ SVP-BSW-3101572:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101572
   aliases:
     - SVP-3101572
-    - 3101572
+    - "3101572"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -786,7 +786,7 @@ SVP-BSW-3101573:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101573
   aliases:
     - SVP-3101573
-    - 3101573
+    - "3101573"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -801,7 +801,7 @@ SVP-BSW-3101574:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101574
   aliases:
     - SVP-3101574
-    - 3101574
+    - "3101574"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -816,7 +816,7 @@ SVP-BSW-3101575:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101575
   aliases:
     - SVP-3101575
-    - 3101575
+    - "3101575"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -831,7 +831,7 @@ SVP-BSW-3101576:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101576
   aliases:
     - SVP-3101576
-    - 3101576
+    - "3101576"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -846,7 +846,7 @@ SVP-BSW-3101577:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101577
   aliases:
     - SVP-3101577
-    - 3101577
+    - "3101577"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -861,7 +861,7 @@ SVP-BSW-3101578:
   long_name: Surface Velocity Program Barometer Salinity Wind Drifter 3101578
   aliases:
     - SVP-3101578
-    - 3101578
+    - "3101578"
   platform_type: SVP Drifter
   home:
     institution : NOAA/AOML
@@ -876,7 +876,7 @@ SVP-BRST-4402505:
   long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402505
   aliases:
     - SVP-4402505
-    - 4402505
+    - "4402505"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
@@ -894,7 +894,7 @@ SVP-BRST-4402506:
   long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402506
   aliases:
     - SVP-4402506
-    - 4402506
+    - "4402506"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
@@ -912,7 +912,7 @@ SVP-BRST-4402507:
   long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402507
   aliases:
     - SVP-4402507
-    - 4402507
+    - "4402507"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
@@ -930,7 +930,7 @@ SVP-BRST-4402508:
   long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 4402508
   aliases:
     - SVP-4402508
-    - 4402508
+    - "4402508"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
@@ -948,7 +948,7 @@ SVP-BRST-6203717:
   long_name: Surface Velocity Program Barometer and Reference Sensor for Temperature Drifter 6203717
   aliases:
     - SVP-6203717
-    - 6203717
+    - "6203717"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
@@ -966,7 +966,7 @@ SVP-BS-4101757:
   long_name: Surface Velocity Program Barometer and Salinity Drifter 4101757
   aliases:
     - SVP-4101757
-    - 4101757
+    - "4101757"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
@@ -984,7 +984,7 @@ SVP-BS-4101758:
   long_name: Surface Velocity Program Barometer and Salinity Drifter 4101758
   aliases:
     - SVP-4101758
-    - 4101758
+    - "4101758"
   platform_type: SVP Drifter
   home:
     institution : Météo-France
