@@ -61,7 +61,7 @@ Atalante:
       tags: [pi]
     - name: Gilles Reverdin
       email: gilles.reverdin@locean-ipsl.upmc.fr
-      tags: [ci]
+      tags: []
   color: goldenrod
 Meteor:
   long_name: RV Meteor
@@ -79,7 +79,7 @@ Meteor:
       tags: [pi]
     - name: Stefan Kinne
       email: stefan.kinne@mpimet.mpg.de
-      tags: [ci]
+      tags: []
   color: dodgerblue
 MS-Merian:
   long_name: RV Maria S. Merian
