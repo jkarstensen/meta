@@ -133,7 +133,7 @@ ATR:
     institution : SAFIRE
     country: France
     url: http://www.safire.fr/en/content_page/safire-utilisateurs/latr42-2.html
-  instrument_ids: {RASTA, BASTA, PICARRO, ALIAS, SAFIRE, UHSS, PMA, CLIMAT}
+  instrument_ids: [RASTA, BASTA, PICARRO, ALIAS, SAFIRE, UHSS, PMA, CLIMAT]
   contacts:
     - name: Sandrine Bony
       email: bony@lmd.jussieu.fr
@@ -152,7 +152,7 @@ HALO:
     institution : DLR
     country: Germany
     url: https://www.halo.dlr.de
-  instrument_ids: {BAHAMAS, HAMP-Radar, HAMP-Radiometers, WALES, specMACS, SMART, VELOX, VELOX-KT19, BACARDI}
+  instrument_ids: [BAHAMAS, HAMP-Radar, HAMP-Radiometers, WALES, specMACS, SMART, VELOX, VELOX-KT19, BACARDI]
   contacts:
     - name: Bjorn Stevens
       email: bjorn.stevens@mpimet.mpg.de
