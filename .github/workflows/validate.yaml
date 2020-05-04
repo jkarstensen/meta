@@ -1,0 +1,17 @@
+on: [push, pull_request]
+
+jobs:
+    validate:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Python
+              uses: actions/setup-python@v1
+              with:
+                python-version: 3.7
+            - name: Install dependencies
+              run: pip install pykwalify
+            - name: Validate metadata
+              run: |
+                  pykwalify -s schema/main_schema.yaml -d EUREC4A.yaml
+

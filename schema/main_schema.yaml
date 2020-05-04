@@ -1,0 +1,53 @@
+type: map
+mapping:
+    =:
+        type: map
+        mapping:
+            long_name:
+                type: str
+                required: true
+            aliases:
+                type: seq
+                sequence:
+                  - type: str
+                required: false
+            platform_type:
+                type: str
+                required: true
+            home:
+                type: map
+                mapping:
+                    institution:
+                        type: str
+                        required: true
+                    country:
+                        type: str
+                        required: true
+                    url:
+                        type: str
+                        required: true
+                required: true
+            contacts:
+                type: seq
+                sequence:
+                  - type: map
+                    mapping:
+                        name:
+                            type: str
+                        email:
+                            type: str
+                        tags:
+                            type: seq
+                            sequence:
+                              - type: str
+                                enum: [pi, dp, fm, tl]
+                                unique: true
+                required: true
+            instrument_ids:
+                type: seq
+                sequence:
+                    - type: str
+                required: false
+            color:
+                type: str 
+                required: false
