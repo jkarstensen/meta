@@ -10,7 +10,9 @@ Please don't hesitate to add more issues or pull requests if you have use cases,
 
 ## Metadata concept
 
-Ideally the EUREC4A metadata would be sourced from the owners of the objects the metadata describes.  That is each instrument would provide an instrument_id.yaml file, with a minimal set of controlled language, and a subset of this infomation would be inherited by a platform_id.yaml.  The campaign_id.yaml could then inherit the information from the plafform.  This would ensure that all the metadata is sourced to the owners.  At each stage of the process additional information could be included an inherited.  An example would be the flight-track dictionsaries being developed for HALO, which would then find their way into the EUREC4A_HALO.yaml file.
+EUREC4A metadata will be sourced from the owners of the objects the metadata describes.  That is each instrument would provide instrument metadata, with a minimal set of controlled language, and a subset of this infomation would be inherited by the platform metadata.  Campaign metadata can then inherit information from the plafforms.  This ensures that all the metadata is provided by the owners.  At each stage of the process additional information could be included an inherited.  An example would be the flight-track dictionaries being developed for HALO, which would then find their way into the HALO metadata.
+
+Metadata also proide a _controlled vocabulary_ i.e. a list of valid ways to refer to a platform, instrument, etc.
 
 ## Tentiative naming conventions
 
