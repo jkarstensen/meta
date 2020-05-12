@@ -14,9 +14,6 @@ The achievement of these goals should be easily decidable by a yes / no answer.
   - through unique names / ids to platforms and instruments
   - list of measured quantities
   - platform that hosted measurement
-* ability to trace version history
-* ability to identify commonalities with other measurements, e.g., from the same or similar instruments
-* provide a means to share common analysis conventions, e.g., segmentation, thresholding
 * support the cataloguing of larger datsets, e.g, for use by other tools, such as  [intake](https://intake.readthedocs.io/en/latest/index.html).
 * index to storage locations of measurement data (may also be generated from metadata included in data files)
 
@@ -27,6 +24,9 @@ These goals should be strived for, but the outcome of this might not be easily d
 * community sourced
 * should evolve incrementally
 * make things more findable
+* ability to trace version history
+* ability to identify commonalities with other measurements, e.g., from the same or similar instruments
+* provide a means to share common analysis conventions, e.g., segmentation, thresholding
 * adopt existing standards to the extent possible, e.g., [GCMD Keywords](https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords). See also [here](https://gcmd.nasa.gov/search/Keywords.do#keywords) and [here](https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords)
 
 ## non-goals
