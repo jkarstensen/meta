@@ -24,7 +24,8 @@ These goals should be strived for, but the outcome of this might not be easily d
 * community sourced
 * should evolve incrementally
 * make things more findable
-* ability to trace version history
+* ability to trace version history of measurements
+* ability to trace version history of metadata
 * ability to identify commonalities with other measurements, e.g., from the same or similar instruments
 * provide a means to share common analysis conventions, e.g., segmentation, thresholding
 * adopt existing standards to the extent possible, e.g., [GCMD Keywords](https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords). See also [here](https://gcmd.nasa.gov/search/Keywords.do#keywords) and [here](https://earthdata.nasa.gov/earth-observation-data/find-data/gcmd/gcmd-keywords)
