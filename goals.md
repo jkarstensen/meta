@@ -5,7 +5,7 @@ To design the metadata structure, a set of goals that this metadata should serve
 ## direct goals
 The achievement of these goals should be easily decidable by a yes / no answer.
 
-* establish ownership and responsibility for measurements, e.g.,
+* establish ownership and responsibility for measurements, instruments and platforms, e.g.,
   - association with a PI
   - institutional ownership, if applicable
   - contact for usage questions
